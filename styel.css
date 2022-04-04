@@ -1,0 +1,37 @@
+.grid{
+    width: 50%;
+    display: grid;
+    grid-template-columns: 25% 50% 25% ; /* this will create the no of columns and the width will be specified with it */
+     grid-template-rows: 100px 300px 100px ; /*this will create the rows and the height will be specified with it */
+
+}
+
+.item{
+    border: 2px solid red;
+    color: white;
+    text-align: center;
+    font-size: xx-large;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.item1{
+    background-color: blue;
+    grid-column: 1/4;
+}
+.item2{
+    background-color: rgb(24, 174, 56);
+}
+.item3{
+    background-color: rgb(54, 161, 200);
+}
+.item4{
+    background-color: rgb(92, 3, 59);
+}
+.item5{
+    background-color: rgb(124, 69, 23);
+    grid-column: 1/4;
+}
+
